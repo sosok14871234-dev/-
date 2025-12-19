@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 0, 61);
+    border-bottom: 3px solid white;
+    height: 132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#student {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: 107px;
+   margin-right: 107px; 
+   font-size: 30px;
+   color: white;
+   text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: none;
+}
+
+.hat {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+#hat1 {
+    padding-right: 80px;
+}
+
+#hat2 {
+    padding-right: 80px;
+}
+
+#hat3 {
+    padding-right: 80px;
+}
+
+main {
+    background-color: rgb(0, 0, 61);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#aboutme {
+    font-size: 30px;
+    color: orangered;
+    padding-top: 120px;
+}
+
+#aboutme1 {
+    color: white;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.figma {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+#myworks {
+    color: orangered;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ssilka {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#html {
+    color: orangered;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.html {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.ssilka2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#contacts {
+    font-size: 30px;
+    color: orangered;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 64px;
+}
+
+.main-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding-bottom: 120px;
+}
+
+.contact-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.info-block {
+    margin-bottom: 40px;
+}
+
+.label {
+    color: orangered;
+    font-size: 30px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.value {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+
+.form-title {
+    color: orangered;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 300px; 
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: black;
+}
+        
+input::placeholder {
+    color: black;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff3333;
+    color: black;
+    border: none;
+    font-size: 17px;
+}
+
+footer {
+    background-color: rgb(0, 0, 61);
+    border-top: 3px solid white;
+    height: 132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#copy {
+    font-size: 20px;
+    color: white;
+    padding-left: 100px;
+}
+
+#vk {
+    padding-right: 120px;
+    padding-left: 29px;
+}
